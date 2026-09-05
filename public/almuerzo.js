@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=191iUPnNQpV8uGGtsswM_E4hMbXHSfgvhX9bpy1xl5bY&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1HB6fmZx-awsMD6aW7E-IzkyughjT2Tf_KB-VvSXvZ34&usp=sharing');
     query.setQuery('SELECT * label A "Almuerzo"');
     query.send(handleQueryResponse);
 }
