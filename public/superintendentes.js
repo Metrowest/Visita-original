@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1DT9tuKXFkR4hJ86CGB_LK2gcRcmQbmvI9_tb71RALVU&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1z9RKr1w1CsdgJAk3NXTzUMZRDpRl1M-IG2enw81RHQE&usp=sharing');
     query.setQuery('SELECT * label A "Grupo", B "Nombre", C "Teléfono"');
     query.send(handleQueryResponse);
 }
