@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1Zs9ajYidEPtLIz18--8KoqVXMTcrK4_EAcN2C1BnlsY&output=html&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1cjo12atq_33Ox6pNui4DIySKcAEuJgI7ia90KBgskz4&output=html&usp=sharing');
     query.setQuery('SELECT * label A "Primer dia"');
     query.send(handleQueryResponse);
 }
