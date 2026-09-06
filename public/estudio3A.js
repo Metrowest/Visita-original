@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=105lCoPeaKVVozl-F0NbWFQGEwjhO4AejSJhF8Pj7KVA&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1blW2ClI3EqFnnMoNZiJZmyvbX5rqUxEuVtGv9ySHnlU&usp=sharing');
     query.setQuery('SELECT * label A "Tercer dia"');
     query.send(handleQueryResponse);
 }

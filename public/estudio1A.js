@@ -15,8 +15,8 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1HdTCN13KuObNZkM0w4osi0Wbu0LxOs6OnXNeYDeAvdY&output=html&usp=sharing');
-    query.setQuery('SELECT * label A "ID", B "Nombre", C "Familia", D "Dirección", E "Teléfono", F "Contactos"');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1HdTCN13KuObNZkM0w4osi0Wbu0LxOs6OnXNeYDeAvdY&usp=sharing');
+    query.setQuery('SELECT * label A "Primer dia"');
     query.send(handleQueryResponse);
 }
 
