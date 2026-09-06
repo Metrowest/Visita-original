@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1lux_BazC5LLDhjuDx33lRfdPJkOprtU9hi7NF-aIBiM&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1jJjPx_UGSVcIx2kSohDTtSKSBe4bMRuwugF-4ipNAL8&usp=sharing');
     query.setQuery('SELECT * label A "Segundo dia"');
     query.send(handleQueryResponse);
 }
