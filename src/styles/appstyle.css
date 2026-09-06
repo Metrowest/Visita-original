@@ -564,6 +564,7 @@ option {
     margin: 0 auto !important;
     border-collapse: collapse !important;
     font-size: 16px !important;
+    min-width: 350px;
 }
 
 .google-visualization-table-table td {
